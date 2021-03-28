@@ -1,0 +1,15 @@
+Compiling in Manjaro Linux:
+
+Java:
+Compiler installed by default
+javac <filename>.java
+java <filename>
+
+C#:
+Install mono
+mcs <filename>.cs
+./<filename>.exe
+
+JavaScript:
+Install nodejs
+node <filename>.js

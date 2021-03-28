@@ -1,0 +1,13 @@
+# Compiling Python in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. https://www.python.org/
+2. Path: C:\Users\bob\AppData\Local\Programs\Python\Python38-32\python.exe
+
+###################################
+
+#### Compiling ####
+
+1. python filename.py

@@ -1,0 +1,13 @@
+
+ # FORMAT TEXT #
+ 
+Dont bother. 
+neat output isnt an option,
+even with lots of formatting / concatenation
+strings still have big spaces to hold
+potentially larger numbers.
+
+ # BITWISE #
+ 
+ Least signicant bit is 0.
+(Whereas in other languages it is 1)

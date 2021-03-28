@@ -1,0 +1,14 @@
+# Compiling Perl in Win10 #
+(http://learnperl.scratchcomputing.com/install/)
+
+#### ensure compiler installed ####
+
+1. Install Perl from http://strawberryperl.com/
+2. From cmd type 'perl --version' to check install
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd
+2. perl <filename>.pl

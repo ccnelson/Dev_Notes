@@ -1,0 +1,18 @@
+# Compiling Pascal in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download and install freepascal from https://www.freepascal.org/download.html
+2. Note path(C:\FPC\x.x.x\bin\i386-win32\
+3. The 64 bit compiler is called ppcrossx64.exe
+
+
+###################################
+
+#### Compiling ####
+
+1. Navigate to install directory ppcrossx64 is located
+2. .\ppcrossx64.exe <path to sourcefile>
+3. This generates .o and .exe files.
+4. Run the .exe

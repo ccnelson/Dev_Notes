@@ -1,0 +1,11 @@
+
+### Real no.s ############################################
+
+Real numbers are not precise - you have to round them
+
+E.G (casting to longint)
+
+somevar := longint(Round(<some code returning a Real>));
+
+##########################################################
+

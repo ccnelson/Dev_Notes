@@ -1,0 +1,39 @@
+# Compiling Java in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Install JRE and JDK
+2. Add to path:
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+C:\Program Files\Java\jdk1.8.0_241\bin
+
+###################################
+
+#### Compiling ####
+
+1. javac <filename>.java
+2. This will create a .class file
+3. Run with: java <filename>
+
+###################################
+
+	NOTE:
+	
+including code in a package will complicate classpath issues
+cmd line comilation doesnt like "./" prefixes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

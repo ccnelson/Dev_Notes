@@ -1,0 +1,16 @@
+# Compiling R in Win10 #
+https://www.r-project.org/index.html
+
+#### compiler install ####
+1. Find nearest mirror https://cran.r-project.org/mirrors.html
+2. Download base package (R-4.0.x-win.exe)
+3. Install
+4. Launch R (from shortcut or start menu)
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd
+2. Navigate to Rscript.exe component
+3. Run: .\Rscript.exe "<path to file>.R" (quote for spaces in path)

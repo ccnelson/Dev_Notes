@@ -1,0 +1,15 @@
+# Compiling Ruby in Win10 #
+(https://rubyinstaller.org/)
+
+#### ensure compiler installed ####
+
+1. Install from https://rubyinstaller.org/downloads/
+2. From cmd type 'ruby --version' to check installed
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd
+2. Navigate to source file
+2. ruby <filename>.rb

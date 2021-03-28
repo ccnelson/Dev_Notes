@@ -1,0 +1,17 @@
+# Compiling Cobol in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download OpenCobolIDE from https://launchpad.net/cobcide/+download
+2. Run installer 
+
+###################################
+
+#### Compiling ####
+
+1. Using OpenCobolIDE (because compiling GNUCobol from source is a nightmare.
+2. New file, Template:Program, Directory:<location>
+3. Write code
+4. Hit play
+5. Source will be in <location>, .exe will be in <location>/bin

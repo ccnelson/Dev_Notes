@@ -1,0 +1,19 @@
+# Compiling Fortan in Win10 #
+(https://gcc.gnu.org/wiki/GFortranBinaries#Windows)
+
+#### ensure compiler installed ####
+
+1. Download from https://sourceforge.net/projects/mingw-w64/
+2. Run installer and select correct architecture
+3. Take note of path (e.g. C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0)
+3. Check install with gfortran.exe --version
+
+###################################
+
+#### Compiling ####
+(http://www.zeusedit.com/phpBB3/viewtopic.php?f=5&t=6960)
+
+1. VS Code has extensions for Fortran (Modern Fortran)
+2. Navigate to sourcefile
+3. gfortran <filename>.f95 -o <filename>.exe
+4. Run <filename>.exe

@@ -1,0 +1,30 @@
+# Compiling Swift in Win10 #
+(https://swiftforwindows.github.io/)
+
+#### ensure compiler installed ####
+
+1. Install Swift for Windows from https://swiftforwindows.github.io/
+
+###################################
+
+#### Compiling ####
+
+1. Write source in VS Code
+2. Open Swift for Windows
+3. Select file, compile, run
+4. Find compiled .exe in C:\Swift\RuntimeEnv\
+
+### BUG FIXES ###
+
+C:\Swift\mingw64\lib\swift\mingw\x86_64/../../../../../mingw64/include/regex.h:11:10: 
+error: 'tre/tre.h' file not found with <angled> include; use "quotes" instead
+#include <tre/tre.h>
+         ^
+error: could not build C module 'SwiftMinGWCrt'
+
+# FIX #
+Open Swift\mingw64\include\regex.h
+Change:
+#include <tre/tre.h>
+To:
+#include "tre/tre.h"

@@ -1,0 +1,16 @@
+# Compiling Lua in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download LuaDist from http://luadist.org/
+2. Extract and place on local drive
+3. Note path
+
+###################################
+
+#### Compiling ####
+
+1. Navigate to extracted location (C:\Lua\...)
+2. Navigate to \bin
+3. ./lua.exe <path to sourcefile>

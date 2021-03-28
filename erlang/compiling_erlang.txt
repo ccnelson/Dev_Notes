@@ -1,0 +1,33 @@
+# Compiling Erlang in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download and install Erlang OTP from https://www.erlang-solutions.com/resources/download.html
+2. Note path eg C:\Program Files\erl-23.0
+
+
+###################################
+
+#### Compiling ####
+(https://www.rose-hulman.edu/class/cs/csse403/201110/teamRepos/HonestJimsMiracleTonic/index.html)
+
+1. Open cmd and navigate to install path \bin
+2. Run ./erl.exe
+3. Navigate to sourcefile using:
+	> pwd(). prints current directory
+	> ls(). lists contents
+	> cd("DIR_NAME"). changes directory to "DIR_NAME"
+	> cd(".."). drop back a directory
+	> USE "/" AND NOT "\"
+	> NOTE: PERIODS FOLLOW COMMANDS!
+4. To compile:
+	> c(<module name>).
+	NOTE - use without extension
+		 - Module name is lowercase
+		 - Filename should match module in sourcefile (but module starts lowercase)
+5. This should procude a .beam file
+6. To execute, call the function using the module:funtion(). format
+	> helloworld:start().
+	NOTE - The module will begin lowercase
+	

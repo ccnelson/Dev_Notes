@@ -1,0 +1,14 @@
+# Compiling Common Lisp in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Install Clisp from https://sourceforge.net/projects/clisp/
+2. Check install from cmd with 'clisp --version'
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd and navigate to source file
+2. clisp <filename>.lsp

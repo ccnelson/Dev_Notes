@@ -1,0 +1,19 @@
+# Compiling C in Win10 #
+(https://docs.microsoft.com/en-us/cpp/build/walkthrough-compile-a-c-program-on-the-command-line?view=msvc-160)
+
+#### ensure compiler installed ####
+
+1. Visual Studio includes a C compiler
+2. Go to Start > Visual Studio 20xx > Developer Command Prompt for VS 20xx
+3. enter 'cl' at command prompt to enure compiler installed correctly
+
+###################################
+
+#### Compiling ####
+
+1. Open Developer Command Prompt for VS 20xx
+2. Navigate to your source file
+3. Enter: cl <filename>.c
+4. This will generate .obj and .exe
+5. Run the .exe
+

@@ -1,0 +1,16 @@
+# Compiling Rust in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Install Rust from https://www.rust-lang.org/tools/install
+2. Check install via cmd with 'rustc --version'
+
+###################################
+
+#### Compiling ####
+
+1. Navigate to source file in cmd
+2. rustc <filename>.rs
+3. This generates .pdb and .exe files
+4. Run the .exe

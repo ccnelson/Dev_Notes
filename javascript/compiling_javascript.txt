@@ -1,0 +1,15 @@
+# Compiling JavaScript in Win10 #
+
+#### ensure compiler installed ####
+
+1. Install NodeJs runtime
+2. Note path C:\Program Files\nodejs\
+
+###################################
+
+#### Compiling ####
+
+1. node <filename>.js
+
+
+

@@ -1,0 +1,15 @@
+# Compiling PHP in Win10 #
+https://www.php.net/manual/en/install.windows.legacy.index.php#install.windows.legacy.manual
+
+#### ensure compiler installed ####
+
+1. Download package from https://www.php.net/downloads
+2. Unpack to C:\ (e.g. C:\PHP)
+
+###################################
+
+#### Compiling ####
+
+1. Navigate to unpacked directory
+3. Run the following command (with args as necessary)
+2. C:\PHP5\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3

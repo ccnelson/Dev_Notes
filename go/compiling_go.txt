@@ -1,0 +1,14 @@
+# Compiling Go in Win10 #
+(https://golang.org/doc/)
+
+#### compiler install ####
+1. Download and install from https://golang.org/doc/install
+2. Open cmd and type 'go version' to check install
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd
+2. Navigate to source file
+3. Enter 'go run <filename>.go'

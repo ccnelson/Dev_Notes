@@ -1,0 +1,16 @@
+
+> control panel
+
+> system
+
+> advanced system settings
+
+> environment variables
+
+* User variables for <USERNAME> * 
+(the top one)
+
+select path > edit > new (or whatever)
+
+(hit OK, OK, OK, & reopen any terminal windows)
+

@@ -1,0 +1,26 @@
+# Compiling Haskell in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download installer from https://docs.haskellstack.org/en/stable/README/
+2. Run installer taking note of path (eg C:\User\<user>\AppData\Roaming\local\bin)
+
+
+###################################
+
+#### Compiling ####
+
+1. Use cmd to navigate to suitable location for a project
+2. Input following commands to set up project
+	> stack new my-project
+	> cd my-project
+	> stack setup
+	> stack build
+	> stack exec my-project-exe
+3. <optional> To run a REPL: > stack ghci (ctrl d to quit)
+4. Now ghc is installed you can delete the project (use rm from cmd)
+5. Navigate to your source files
+6. Input the following
+	> stack runghc <filename>.hs
+

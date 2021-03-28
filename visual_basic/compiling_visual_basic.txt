@@ -1,0 +1,16 @@
+# Compiling Visual Basic in Win10 #
+https://docs.microsoft.com/en-us/dotnet/visual-basic/reference/command-line-compiler/how-to-invoke-the-command-line-compiler
+
+#### ensure compiler installed ####
+
+1. Visual Studio 20xx contains a Visual Basic compiler
+
+###################################
+
+#### Compiling ####
+
+1. Open Visual Studio Developer Command Prompt
+2. Navigate to source file
+3. vbc <filename>.vb
+4. This generates a <filename>.exe
+5. Run .exe

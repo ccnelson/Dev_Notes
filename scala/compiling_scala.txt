@@ -1,0 +1,19 @@
+# Compiling Scala in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Check Java is installed java -version
+2. Download binaries (not sbt) from https://www.scala-lang.org/download/
+3. Check install with scalac -version
+(Binaries allow running scala from cmd, rather than per project with sbt)
+
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd and navigate to source
+2. scalac <filename>.scala 
+(this generates a class file like java)
+3. scala <filename>

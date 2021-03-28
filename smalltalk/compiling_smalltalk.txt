@@ -1,0 +1,15 @@
+# Compiling Smalltalk in Win10 #
+
+
+#### ensure compiler installed ####
+
+1. Download GNU Smalltalk windows installer from https://github.com/mcandre/gst-win
+2. Note path eg C:\Program Files (x86)\GNU\GNU Smalltalk\
+3. VS Code has a Smalltalk extension
+
+###################################
+
+#### Compiling ####
+
+1. Open cmd and navigate to source file
+1. gst <filename>.st

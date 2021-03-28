@@ -1,0 +1,4 @@
+Rust likes to use:
+snake_case for variables
+camelCase for structs
+UPPERCASE for constants
